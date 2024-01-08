@@ -1,49 +1,111 @@
 .header{
-    width: 100%;
-    height: 92px;
+    display: flex;
+    flex: 1;
     background-color: #3C3A39;
+    height: 92px;
+    border: none;
 }
-.header-1{
-     display: block; 
-     margin-top: 0px;
-
+.header1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
-.header-1-1{
-    display: inline-block;
-    color: white;
+.header2{
+    display: flex;
+    margin-top: 10px;
+    align-items: start;
+    justify-content: end;
 }
-.header-2{
-    display: block;
+.header3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px;
+    justify-content: end;
+    
 }
-
 body{
    background-color: black;
-    background-image: url(thumbnails/Illustration.png);
     width: 100%;
-
-
 }
 .sec1{  
-    align-items: center;
+  text-align: center;
 
 }
 .sec2{
-    align-items: center;
+    text-align: center;
 }
 .sec3{
-    align-items: center;
-    margin-bottom: 0px;
+    text-align: center;
 }
 .sec4{
-    display: block;
+    display: inline-block;
     margin-top: 0px;
-
+    margin-bottom: 40px;
+}
+.sec5{
+    display: flex;
+    justify-content: flex-end;
+    align-items:bottom;
+    margin-top: 0%;
 }
 .time{
-    margin-top: 0px;
+    color: white;
+    top: 13px;
+    width: 54px;
+    height: 21px;
+    left: 21px;
+    margin-left: 20px;
+}
+.my-logo{
+    color: white;
+    width: 94px;
+    height: 44px;
+    top: 2px;
+    left: 12px;
+    margin-left: 10px;
+}
+.list-button{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    top: 4px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.list-button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.list-icon{
+    width: 40px;
+    height: 40px;
+    background:transparent;
+}
+.connection{
+    width: 20px;
+    height: 12px;
+    top: 17.67px;
+    background-color: transparent;
+
+}
+.wifi{
+    width:20px;
+    height: 12px;
+    top: 17.33px;
+    background-color: transparent;
+}
+.battery{
+    width: 25px;
+    height: 12px;
+    top: 17.33px;
+    background-color: transparent;
 }
 .title{
-    margin-top: 150px;
+    margin-top: 200px;
     display: block;
     color: #FF6B00;
     width: 327px;
@@ -51,7 +113,6 @@ body{
     font-weight:400px;
     font-size: 56px;
     line-height:64px ;
-    text-align: center;
     margin-bottom: 2px;
 
 }
@@ -59,7 +120,6 @@ body{
     margin-top: 0px;
     margin-bottom: 5px;
     color: white;
-    text-align: center;
     width: 327px;
     height: 27px;
     font-family: roboto;
@@ -77,43 +137,47 @@ body{
     font-weight: 400px;
     size: 12px;
     line-height: 24px;
-    text-align: center;
 }
-.logo-1{
+.logo-1,.logo-2,.logo-3,.logo-4{
     display: inline-block;
-}
-.logo-2{
-    display: inline-block; 
-}
-.logo-3{
-    display: inline-block;
-}
-.logo-4{
-    display: inline-block;
-}
 
+}
 .im-1{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     padding: 8px;
 }
 .im-2{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     padding: 8px;
    
 }
 .im-3{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     padding: 8px;
 }
 .im-4{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     padding: 8px;
+}
+.button1,.button2,.button3,.button4{
+    background-color: transparent;
+    border: transparent;
+}
+.button1,.button2,.button3,.button4 :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.pic1{
+    display: flex;
+    width: 406px;
+    height: 312.03px;
+    margin-top: 0px;
 }
