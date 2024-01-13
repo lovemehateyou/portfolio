@@ -1,3 +1,4 @@
+
 .header{
     display: flex;
     flex: 1;
@@ -11,11 +12,12 @@
     flex: 1;
 }
 .header2{
-    display: flex;
+    display:flex;
     margin-top: 10px;
     align-items: start;
     justify-content: end;
 }
+
 .header3{
     display: flex;
     flex-direction: column;
@@ -26,9 +28,7 @@
 }
 body{
    background-color: black;
-    width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px;
 }
 .sec1{  
   text-align: center;
@@ -69,8 +69,8 @@ body{
 }
 .list-button{
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     top: 4px;
     padding: 8px;
     background: transparent;
@@ -83,16 +83,14 @@ body{
     cursor: pointer;
 }
 .list-icon{
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     background:transparent;
 }
 .connection{
     width: 20px;
     height: 12px;
     top: 17.67px;
-    background-color: transparent;
-
 }
 .wifi{
     width:20px;
@@ -182,4 +180,269 @@ body{
     width: 406px;
     height: 312.03px;
     margin-top: 0px;
+}
+.mywork{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;  
+}
+.title2{
+    width: 427px;
+    height: 83px;
+    font-weight: 400;
+    font-size:60px;
+    padding-top: 100px;
+    padding-bottom: 43px;
+    margin-left: 50px;
+}
+.pic2{
+    width: 400px;
+    height: 237px;
+    margin-left: 100px;
+    size: 300px;
+}
+.sub-title2{
+    width: 427px;
+    height: 36px;
+    font-size: 42px;
+    font-weight: 400;
+    font-stretch:semi-expanded;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.disc{
+    height: 147px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.button-holder{
+    width: 314px;
+    height: 40px;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.css{
+   width: 55px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ; 
+   margin-right: 6px;
+}
+.css:hover{
+    opacity: 0.3;
+}
+.html{
+    width: 67px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ; 
+   margin-right: 6px;
+}
+.html:hover{
+    opacity: 0.3;
+}
+.boot{
+    width: 95px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ;
+   margin-right: 6px; 
+}
+.boot:hover{
+    opacity: 0.3;
+}
+.ruby{
+    width: 61px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ; 
+   
+}
+.ruby:hover{
+    opacity: 0.3;
+}
+.see{
+    display: inline-block;
+    width: 160px;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+    background-color:#FF6B00 ;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.see:hover{
+    opacity: 0.8;
+}
+.repeted{
+    background-repeat:no-repeat;
+    margin-bottom: 0px;
+    height: 687px;
+    background-image: url(thumbnails/Img\ Placeholder\ \(1\).png);
+    margin-top: 60px;
+    background-size: 100vw;
+}
+.title3{
+    color: white;
+    width: 295px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 44px;
+    margin-top: 210px;
+    margin-left: 10px;
+}
+.disc2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.button-holder2{
+    width: 247px;
+    height: 40px;
+    gap: 12px;
+    margin-top: 20px;
+}
+.html2{
+    width: 67px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ; 
+   margin-right: 6px;
+}
+.html2:hover{
+    opacity: 0.3;
+}
+.boot2{
+    width: 95px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ;
+   margin-right: 6px; 
+}
+.boot2:hover{
+    opacity: 0.3;
+}
+.ruby2{
+   width: 61px;
+   height: 40px;
+   border: 1px;
+   padding: 10px,12px,10px,12px;
+   border-color: #8993A4 ; 
+   
+}
+.ruby2:hover{
+    opacity: 0.3;
+}
+.see2{
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    background-color:#FF6B00 ;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+.see2:hover{
+    opacity: 0.8;
+}
+.footer{
+    margin-top: 100px;
+}
+.aboutme{
+    background-color: black;
+    width: 100%;
+    height: 563px;
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+.me{
+    color:#FF6B00;
+    width:340px;
+    height: 79px;
+    font-weight: 400;
+    font-size: 78px;
+    letter-spacing: 0.37px;
+    text-align: center;
+    margin-top: 100px;  
+    margin-bottom: 0px;
+    font: bold; 
+}
+.disc3{
+    color: white;
+    width: 340px;
+    height: 148px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.resume{
+    width: 170px;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+    background-color: #FF6B00;
+    color: white;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.frame{
+   display: flex;
+   flex: 1;
+   height: 300px;
+   justify-content: end;
+
+}
+.skill{
+    background-color: black;
+    margin-top: 5px;
+}
+.rec1{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
+    margin-left: 200px;  
+}
+.rec2{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
+    margin-left: 200px; 
+}
+.rec3{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 250px; 
+}
+.lang{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0px;
+}
+.love{
+    color: white;
+    text-align: center;
 }
